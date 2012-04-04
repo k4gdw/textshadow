@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <version>1.0.0-beta</version>
+    <authors>https://github.com/heygrady</authors>
+    <owners>k4gdw</owners>
+    <projectUrl>https://github.com/heygrady/textshadow</projectUrl>
+    <dependencies>
+      <dependency id="jQuery" />
+      <dependency id="dotless" />
+    </dependencies>
+    <id>jquery.textshadow</id>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An IE compatible text-shadow pollyfill.</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>jQuery Plugin polyfill modernizr</tags>
+  </metadata>
+  <files>
+    <file src="..\jquery.textshadow.js" target="content\Scripts\jquery.textshadow.js" />
+    <file src="..\jquery.textshadow.css" target="content\Styles\jquery.textshadow.less" />
+    <file src="..\readme.md" target="content\readme.md" />
+  </files>
+</package>
