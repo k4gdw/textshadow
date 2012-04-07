@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
-    <version>1.0.0-beta</version>
+    <version>1.2.1-beta</version>
     <authors>https://github.com/heygrady</authors>
     <owners>k4gdw</owners>
     <projectUrl>https://github.com/heygrady/textshadow</projectUrl>
     <dependencies>
       <dependency id="jQuery" />
-      <dependency id="dotless" />
     </dependencies>
     <id>jquery.textshadow</id>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>An IE compatible text-shadow pollyfill.</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <description>An IE compatible text-shadow polyfill that uses LESS for the css.</description>
+    <releaseNotes>Changed the folder for the css and readme.md so that it would install into a Content folder to make it work with ASP.Net MVC.  I removed the dependency on LESS so as to not force users to install it.  Users who want less can copy the css file to a less file.</releaseNotes>
     <copyright>Copyright 2012</copyright>
     <tags>jQuery Plugin polyfill modernizr</tags>
   </metadata>
   <files>
-    <file src="..\jquery.textshadow.js" target="content\Scripts\jquery.textshadow.js" />
-    <file src="..\jquery.textshadow.css" target="content\Styles\jquery.textshadow.less" />
-    <file src="..\readme.md" target="content\readme.md" />
+    <file src="..\jquery.textshadow.js" target="content\Scripts\polyfills\k4gdw\jquery.textshadow.js" />
+	<file src="..\jquery.textshadow.min.js" target="content\Scripts\polyfills\k4gdw\jquery.textshadow.min.js" />
+	<file src="..\jquery.textshadow.css" target="content\Content\polyfills\k4gdw\jquery.textshadow.css" />
+    <file src="..\readme.md" target="content\Content\polyfills\k4gdw\textshadow-readme.md" />
   </files>
 </package>
