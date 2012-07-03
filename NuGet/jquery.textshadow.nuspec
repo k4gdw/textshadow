@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
-    <version>1.2.1-beta</version>
+    <version>1.3.0-beta</version>
     <authors>https://github.com/heygrady</authors>
     <owners>k4gdw</owners>
     <projectUrl>https://github.com/heygrady/textshadow</projectUrl>
@@ -20,5 +20,6 @@
 	<file src="..\jquery.textshadow.min.js" target="content\Scripts\polyfills\k4gdw\jquery.textshadow.min.js" />
 	<file src="..\jquery.textshadow.css" target="content\Content\polyfills\k4gdw\jquery.textshadow.css" />
     <file src="..\readme.md" target="content\Content\polyfills\k4gdw\textshadow-readme.md" />
+	<file src="..\_jquery.textshadow.scss" target="content\Content\polyfills\k4gdw\_jquery.textshadow.scss" />
   </files>
 </package>
