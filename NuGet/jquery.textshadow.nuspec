@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
-    <version>1.3.0-beta</version>
+    <version>1.3.1-beta</version>
     <authors>https://github.com/heygrady</authors>
     <owners>k4gdw</owners>
     <projectUrl>https://github.com/k4gdw/textshadow</projectUrl>
@@ -11,7 +11,7 @@
     <id>jquery.textshadow</id>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>An IE compatible text-shadow polyfill that uses LESS for the css.</description>
-    <releaseNotes>Merged updates from the upstream git repository in hopes of fixing some quirky bugs.</releaseNotes>
+    <releaseNotes>Cleaned up the readme file to use proper markdown formatting for code blocks.</releaseNotes>
     <copyright>Copyright 2012</copyright>
     <tags>jQuery Plugin polyfill modernizr</tags>
   </metadata>
